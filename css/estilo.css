@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+
 body {
-  background-color: rgb(255, 0, 242); 
+  background: radial-gradient(circle, #ffb6c1, #ff69b4, #ff1493);
+  font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
-  color: rgb(243, 243, 243)
+  color: #ffffff;
   text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff69b4;
 }
 
 p {
-  font-family: verdana;
+  font-family: 'Quicksand', sans-serif;
   font-size: 20px;
+  color: #333;
+  line-height: 1.6;
 }
